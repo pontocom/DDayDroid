@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_location"
+        android:icon="@mipmap/ic_action_place"
+        android:title="Location"
+        app:showAsAction="always"  />
+    <item android:id="@+id/action_share"
+        android:icon="@drawable/abc_ic_menu_share_mtrl_alpha"
+        android:title="Share"
+        app:showAsAction="always"/>
+    <item android:id="@+id/action_refresh"
+        android:icon="@mipmap/ic_action_repeat"
+        android:title="Refresh"
+        app:showAsAction="always"/>
+</menu>

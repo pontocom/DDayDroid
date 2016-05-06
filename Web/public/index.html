@@ -1,0 +1,96 @@
+<html>
+
+<head>
+    <title>Dream Destination a Day</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.min.css">
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="https://netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="container">
+    <div class="navbar">
+        <div class="navbar-inner">
+            <div class="container">
+                <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">        <span class="icon-bar"></span>        <span class="icon-bar"></span>        <span class="icon-bar"></span>      </a><a class="brand" href="index.php">Dream Destination a Day | admin</a>
+                <div class="nav-collapse collapse">
+                    <ul class="nav">
+                        <li>
+                            <a href="index.html" class="active">Home</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/picker-gmaps/js/jquery-1.7.2.min.js"></script>
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <link rel="stylesheet" type="text/css" href="js/picker-gmaps/css/jquery-gmaps-latlon-picker.css"/>
+    <script src="js/picker-gmaps/js/jquery-gmaps-latlon-picker.js"></script>
+
+    <ol class="breadcrumb">
+        <li>
+            <a href="index.html">Home</a> <span class="divider">/</span>
+        </li>
+    </ol>
+    <h3>Add a new destination...</h3>
+    <aside>
+        <aside>
+            <form method="post" enctype="application/json" action="http://127.0.0.1:3000/ddday/add" name="destForm">
+                <div class="row">
+                    <div class="span2"><label>POI name</label>
+                    </div>
+                    <div class="span10">
+                        <input type="text" class="input-xxlarge" name="POIname">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span2"><label>POI details</label>
+                    </div>
+                    <div class="span10">
+                        <input type="text" class="input-xxlarge" name="POIdetails">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span2">Geo coordinates
+                    </div>
+                    <div class="span10">
+                        <fieldset class="gllpLatlonPicker">
+                            <input type="text" class="gllpSearchField">
+                            <input type="button" class="gllpSearchButton" value="search">
+                            <br/><br/>
+                            <div class="gllpMap">Google Maps</div>
+                            <br/>
+                            Latitude:
+                            <input type="text" class="gllpLatitude" value="38.7252993" maxlength="6" name="POIlat"/>
+                            / Longitude
+                            <input type="text" class="gllpLongitude" value="-9.150036399999976" maxlength="6" name="POIlng"/>
+                            zoom: <input type="text" class="gllpZoom" value="11"/>
+                            <input type="button" class="gllpUpdateButton" value="update map">
+                        </fieldset>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="span2"><label>POI image URL</label>
+                    </div>
+                    <div class="span10">
+                        <input type="text" class="input-xxlarge" name="POIimageURL">
+                    </div>
+                </div>
+                <div class="form-actions">
+                    <br>
+                    <input type="hidden" name="oper" value="add_venue">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                    <input type="reset" class="btn" value="Reset">
+                </div>
+            </form>
+        </aside>
+    </aside>
+
+    <div class="well well-small">&copy; Netmust 2015 - All rights reserved</div>
+</div>
+</body>
+
+</html>

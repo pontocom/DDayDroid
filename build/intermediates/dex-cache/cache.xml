@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/exploded-aar/com.facebook.android/facebook-android-sdk/3.23.0/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="96a08acffc0d3cf8425107b82bc4009a1f82a66c">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.facebook.android-facebook-android-sdk-3.23.0_3241fb0bc86d2e11a72660a53de2b04390c3e941/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/bolts-android-1.1.4_52f2e3501fd4ad3d07c54e2a37287b657c6f1990/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="87b11e883e0d3d1625e71bee26372a8d84c1b54c">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_16dbe287cd878a2a73e2bb51fa8d6cbc7e919c52/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/libs/internal_impl-21.0.3.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-21.0.3_029bd04a4fc4109403c84fe752bb6da629b1115a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="d56947cc805b218dc4d8df8b4296b6a8f5df47d6">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_1a985c36fc10184460dde0bb74b9a3ac6e029ed8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-21.0.3_8f01c18da08d908ad648c869d6431306496cff8a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/exploded-aar/com.android.support/support-v4/21.0.3/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-21.0.3_d1e4c39a8f448091d0587eef74815f91dd6090e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/exploded-aar/com.google.android.gms/play-services/6.5.87/jars/classes.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="dd9247ea0fabe8ee479638c4b4a23e93752be256">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-6.5.87_076264ca35d4bb09a780dda9db64ececc4d48024/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/.gradle/caches/modules-2/files-2.1/com.nostra13.universalimageloader/universal-image-loader/1.9.3/a85588bec3e2c4584d593d3f15df1677321bca72/universal-image-loader-1.9.3.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="a85588bec3e2c4584d593d3f15df1677321bca72">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/universal-image-loader-1.9.3_1148c36b3cce0660fccd40c7b2ae52dbe7f84f7f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/cserrao/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/21.0.3/support-annotations-21.0.3.jar"
+        jumboMode="true"
+        revision="21.0.0"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="/Users/cserrao/Documents/Development/PET/DreamDestinationaDay/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-21.0.3_726d72666f8f57f002ff6c811edda00795e4efa3/classes.dex" />
+    </item>
+
+</items>

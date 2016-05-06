@@ -1,0 +1,28 @@
+{
+  "name": "DreamDestinationADay",
+  "version": "0.1.2",
+  "description": "Dream Destination a Day REST API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "*",
+    "body-parser":"*",
+    "mongoskin": "*",
+    "node-uuid": "*"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/heroku/node-js-getting-started"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "express"
+  ],
+  "license": "MIT"
+}
